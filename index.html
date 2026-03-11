@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fox Team Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card welcome-card">
+        <h1>Welcome to Fox Team</h1>
+        <p>
+          Hello everyone this is the Fox Team. We wanna welcome you to our website.
+          Join our discord server for homebrew news and a lot more. Thanks. And have
+          a nice day.
+        </p>
+      </section>
+
+      <section class="card links-card">
+        <h2>Join Our Discord</h2>
+        <a class="discord-link" href="https://discord.gg/QKqKeC3gnX" target="_blank" rel="noopener noreferrer">
+          https://discord.gg/QKqKeC3gnX
+        </a>
+      </section>
+
+      <section class="card game-card">
+        <h2>BlockBlast MiniGame</h2>
+        <p class="game-help">Move: ◀ ▶ | Rotate: ▲ or Space | Drop: ▼</p>
+        <div class="game-stats">
+          <span>Score: <strong id="score">0</strong></span>
+          <button id="restart" type="button">Restart</button>
+        </div>
+        <canvas id="game" width="300" height="450" aria-label="BlockBlast minigame"></canvas>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      The Fox Team 2026. Idea by Z Guy and JordiGamer.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
